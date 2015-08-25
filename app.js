@@ -7,4 +7,4 @@ app.get('/', function (req, res){
     res.end();
 }).listen(process.env.PORT || 3000);
 
-app.use(express.static('resuem'));
+app.use('/static', express.static('resuem'));
