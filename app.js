@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 
-app.createServer(function (req, res){
+app.get(function (req, res){
     res.writeHead(200);
     res.write('hello world \n');
     res.end();
