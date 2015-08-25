@@ -6,3 +6,5 @@ app.get('/', function (req, res){
     res.write('hello world \n');
     res.end();
 }).listen(process.env.PORT || 3000);
+
+app.use(express.static('resuem'));
