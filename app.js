@@ -1,7 +1,7 @@
-var http = require('http');
+var express = require('express');
+var app = express();
 
-
-http.createServer(function (req, res){
+app.createServer(function (req, res){
     res.writeHead(200);
     res.write('hello world \n');
     res.end();

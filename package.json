@@ -8,5 +8,8 @@
     "start": "node app.js"
   },
   "author": "Allan Nielsen",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
