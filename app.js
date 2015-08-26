@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var boots = require('bootstrap');
+//var boots = require('bootstrap');
 
 app.use(express.static(__dirname + '/resume'));
 //app.use(express.static(__dirname + '/node_modules/bootstrap/js/*.js'));
