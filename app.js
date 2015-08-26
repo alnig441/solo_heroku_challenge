@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-app.use('/resume', express.static(__dirname + '/resuem'));
+app.use('/', express.static('resuem'));
 
 app.get('/', function (req, res){
     res.writeHead(200);
